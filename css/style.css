@@ -1,0 +1,489 @@
+/*
+Master Stylesheet
+============================
+Template Name : anso
+Author: Fouzia Chowdhury
+Author Url: https://fouzia.com
+Descriptions: PSD TO HTML ans CSS Practise
+Version: 1.0.0
+Tag: Blog
+
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+
+/*
+Table of Contents
+==============================
+1. Typhography
+2. Header
+3. Banner
+4. 
+5. 
+*/
+
+/*============================
+       Typhography
+==============================*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700,900|Poppins:400i,500,600,900&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	margin: 0;
+}
+h1{
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;;
+	font-weight: 900;
+	
+}
+/*====================================================
+               Homepage Starts
+====================================================*/
+
+.container{
+	background: #fff;
+}
+
+.head{
+	width: 80%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	padding-right: 0;
+	align-items: center;
+
+}
+.logo{
+	width: 20%;
+	
+	
+}
+.navbar ul{
+	text-align: center;
+	
+}
+.navbar ul li{
+	display: inline-block;
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 550;
+	color: #000000;
+	text-transform: capitalize;
+	padding: 0 15px;
+
+}
+.navbar ul li:first-child a{
+     color:#66cc33;
+}
+.navbar ul li:first-child a:hover{
+	color: #000;
+}
+.navbar ul li a:hover{
+	color:#66cc33;
+	transition: .3s all ease-in-out;
+}
+
+button{
+	font-size: 16px;
+	font-weight: 550;
+	padding: 10px 25px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	outline:none;
+}
+.b{
+	padding: 9px 35px;
+	border:1px solid #84817a;
+	box-shadow: 2px 2px #84817a;
+	background:#ffff;
+}
+.b:hover{
+	background:#66cc33;
+	color: #fff;
+	box-shadow: 1px 1px #84817a;
+	border: 1px solid #66cc33;
+	transition: .3s all ease-in-out;
+}
+.bb{
+	border: 1px solid #66cc33;
+	background:#66cc33;
+    color: #fff;
+    box-shadow: 2px 2px #84817a
+}
+.bb:hover{
+	border: 1px solid #84817a;
+	background:#fff;
+	color: #333333;
+	transition: .3s all ease-in-out;
+	box-shadow: 2px 2px #84817a;
+}
+
+.b1{
+	padding-left:50px;
+}
+.b2{
+	padding-left: 8px;
+
+
+}
+
+/*=================================
+             Banner
+==================================*/
+.banner-f{
+	background:#f6f6f6;
+}
+.banner{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0px;
+	align-items: center;
+}
+.content{
+	width: 60%;
+}
+.title{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color:#333333;
+
+}
+.banner-content{
+	font-family: 'poppins', sans-serif;
+	color:#333;
+	padding: 34px 0px;
+	font-weight: 400;
+	line-height: 35px;
+    
+}
+.button1{
+       border:1px solid;
+       margin-right: 15px;
+       background:#fff;
+}
+.button1:hover{
+	background:#66cc33;
+	border: 1px solid #66cc33;
+	color: #fff;
+	transition: .3s all ease-in-out;
+}
+.button2{
+	border: 1px solid #66cc33;
+	background:#66cc33;
+    color: #fff;
+}
+.button2:hover{
+	border: 1px solid #333333;
+	background:#fff;
+	color: #333333;
+	transition: .3s all ease-in-out;
+}
+.banner-img{
+	width: 40%;
+	text-align: right;
+
+}
+.banner-img2{
+	width: 35%;
+	text-align: right;
+}
+.content2{
+	width: 60%;
+	padding-right:0;
+	margin-right:0;
+
+}
+/*==================================================
+                Pay Now Starts 
+====================================================*/
+.middle-s{
+	background: #f6f6f6;
+}
+.middle{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.form{
+	width: 49%;
+	padding: 40px 20px;
+	height: 509px;
+	background: #fff;
+	box-shadow: 5px 5px 5px darkgray;
+}
+.text{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 550;
+	font-size: 12px;
+	align-items: center;
+	line-height: 25px;
+	display:flex;
+	justify-content:space-between;
+
+}
+input[ type=email]{
+	height: 46px;
+	border: 1px solid;
+	border-color:#66cc33;
+	border-radius: 5px;
+	padding: 0px 20px;
+	outline: none;
+	
+}
+.mass{
+	padding: 25px 0;
+}
+.checkbox-c input{
+    display: none;
+}
+.checkbox-c{
+	font-family: 'Poppins', sans-serif;
+	font-weight:100;
+	font-size: 14px;
+	align-items:center;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+.checkbox-c .checkmark{
+	display: inline-block;
+	height: 25px;
+	width:23px;
+	left: 0;
+	top: 0;
+	border-radius: 3px;
+}
+.control{
+	
+}
+.checkbox-c input:checked + .checkmark{
+	background: #66cc33;
+}
+.checkbox-c:hover .checkmark{
+	background: #66cc33;
+}
+.checkbox-c input:checked + .checkmark:after{
+	content:"";
+	position: absolute;
+	height: 9px;
+	width: 20px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	top: 25%;
+	left: 3%;
+	transform:translate(-50%,-50%)rotate(-50deg);
+}
+label{
+	font-family: 'Poppins-Italic', sans-serif; 
+	color: #333333;
+	cursor: pointer;
+}
+
+.lower{
+	width: 100%;
+	background: #f6f6f6;
+}
+.lower1{
+
+}
+h4{
+	font-family: 'Poppins' sans-serif;
+	font-weight: 600;
+	color: #333333;
+}
+.lower p{
+	font-family: 'Poppins-Medium', sans-serif;
+	font-size: 12px;
+	font-weight:500;
+	line-height: 20px;
+	color: #333333;
+}
+.form2{
+	width: 49%;
+	padding: 30px;
+	height: 509px;
+	background: #fff;
+	box-shadow: 5px 5px 5px darkgray;
+}
+.form2 h3{
+	padding-top: 20px;
+	font-weight: 700;
+	color:#333333;
+	text-transform:uppercase; 
+
+}
+.form2 p{
+	padding: 20px 30px;
+	font-size: 13px;
+	font-weight: 500;
+	color:#333333;
+	line-height: 23px;
+}
+.submit{
+	padding-bottom: 60px;
+	text-align: center;
+}
+.submit button{
+	padding: 19px 77px;
+}
+
+/*=====================================================
+                 Services Part Starts
+======================================================*/
+header{
+	width:90%;
+	margin: 0 auto;
+	padding-top:60px;
+	align-items: center;
+	display:flex;
+	justify-content: space-between;
+}
+header-1{
+	width:91%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #f6f6f6;
+}
+.list-a{
+	width: 80%;
+	margin: 0 auto;
+	align-items: center;
+	padding: 30px 0px;
+	margin-bottom: 80px;
+	border-bottom: 1.5px solid #f6f6f6;
+
+    
+}
+.title-1{
+	font-weight: 900;
+	font-size: 17px;
+	text-align:center;
+	color: #333333;
+}
+.list-items{
+	font-weight: 500;
+	font-size: 16px;
+	color: #333333;
+	display: flex;
+	justify-content: space-around;
+	line-height: 35px;
+	padding: 20px;
+	
+}
+/*======================================================
+                      About Us
+======================================================*/
+.banner-img3{
+	width: 35%;
+
+}
+.banner-t{
+	color:#333;
+	padding: 20px 0;
+	font-weight: 400;
+	line-height: 35px;
+}
+/*======================================================
+                  Footer Starts
+=======================================================*/
+footer{
+       background:#66cc33;
+       padding: 20px 0;
+}
+.footer{
+	  width: 80%;
+	  margin: 0 auto;
+      display:flex;
+      justify-content: space-between;
+      color:#fff;
+}
+.footer p{
+	line-height: 30px;
+
+}
+.list p a{
+	text-decoration: none;
+	color:#fff;
+   	font-size: 16px;
+	text-transform: capitalize;
+}
+.list p a:hover{
+	color: #333;
+	font-weight: 500;
+	transition: .3s all ease-in-out;
+}
+address{
+	font-size: 17px;
+	font-style: normal;
+	padding: 15px 0;
+}
+.footer i{
+	padding-right: 20px;
+}
+.icon{
+	padding: 25px 0;
+}
+.icon span i{
+	font-size:17px;
+}
+.icon li{
+	display:inline-block;
+}
+
+.icon li a i{
+    color:#fff;
+    padding: 11px 8px;
+    width: 42px;
+    height: 42px;
+    background-color: rgb( 255, 255, 255, .4);
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.icon li a i:hover{
+	color: #333333;
+	background: #66cc33;
+	border: 2px solid #333333;
+	transition: .3s all ease-in-out;
+}
+.finish{
+	background: #333333;
+	height: 90px;
+
+}
+.textt p{
+	font-family: 'Poppins' sans-serif;
+	font-size: 13px;
+	font-weight: 350;
+	margin-top: 0;
+	text-align: center;
+	padding-top: 30px;
+	color: #f6f6f6;
+}
+
+.bann{
+	padding: 25px 0px;
+	margin: 0 auto;
+}
